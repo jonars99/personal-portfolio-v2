@@ -1,0 +1,40 @@
+/** shared **/
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+%title-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+html, body, #root {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+/** landing **/
+
+#landing-page {
+  background: #E4EAF6;
+
+  h3 {
+    @extend %title-text;
+  }
+
+  .cut-out {
+    position: relative;
+    background-color: white;
+    height: 480px;
+    width: 320px;
+    overflow: hidden;
+  }
+
+  .landing-svgs {
+    position: absolute;
+    left: -75px;
+    top: -13px;
+
+    #svg-coffee {
+      border: 2px solid pink;
+    }
+
+  }
+}
