@@ -29,12 +29,17 @@ html, body, #root {
 
   .landing-svgs {
     position: absolute;
-    left: -75px;
-    top: -13px;
+    animation: svgloop linear 8s infinite;
+    bottom: 0;
+    left: -40px;
+  }
 
-    #svg-coffee {
-      border: 2px solid pink;
+  @keyframes svgloop {
+    0% {
+      transform: translateY(0);
     }
-
+    100% {
+      transform: translateY(50%);
+    }
   }
 }
