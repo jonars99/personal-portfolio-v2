@@ -3,7 +3,7 @@ import React from 'react';
 function Projects () {
   return (
     <div id="projectPage" className="container my-5 pt-5">
-      <div className="row">
+      <div className="row gx-0">
         <h3 className="text-center pb-4">projects</h3>
 
         <div className="col-12 col-xl-3 d-flex">
