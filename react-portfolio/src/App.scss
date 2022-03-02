@@ -19,7 +19,7 @@ html, body, #root {
   font-family: 'Anonymous Pro', monospace;
 }
 
-#projectPage, #aboutPage {
+#projectPage, #aboutPage, #contactPage {
   h3 {
     @extend %subtitles;
   }
@@ -81,10 +81,8 @@ html, body, #root {
 
 /** about page **/
 
-#aboutPage {
-  .about-me {
-    background-color: #E4EAF6;
-  }
+#aboutPage .about-me, #contactPage .contact-me {
+  background-color: #E4EAF6;
 }
 
 /** responsiveness **/

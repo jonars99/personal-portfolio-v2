@@ -13,6 +13,7 @@ function App() {
       <Main />
       <Projects />
       <About />
+      <Contact />
     </React.Fragment>
   );
 }
