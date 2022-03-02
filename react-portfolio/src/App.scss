@@ -19,6 +19,12 @@ html, body, #root {
   font-family: 'Anonymous Pro', monospace;
 }
 
+#projectPage, #aboutPage {
+  h3 {
+    @extend %subtitles;
+  }
+}
+
 /** landing **/
 
 #landingPage {
@@ -70,15 +76,18 @@ html, body, #root {
   }
 }
 
-
-
 /** project page **/
 
-#projectPage {
-  h3 {
-    @extend %subtitles;
+
+/** about page **/
+
+#aboutPage {
+  .about-me {
+    background-color: #E4EAF6;
   }
 }
+
+/** responsiveness **/
 
 @media (min-width: 992px) {
 
