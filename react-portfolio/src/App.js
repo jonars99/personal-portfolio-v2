@@ -9,8 +9,8 @@ import './App.scss';
 function App() {
   return (
     <React.Fragment>
-      <Main />
       <Navbar />
+      <Main />
     </React.Fragment>
   );
 }

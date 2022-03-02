@@ -45,33 +45,43 @@ html, body, #root {
   }
 }
 
+/** nav bar **/
 #sideNavbar {
-  transform-origin: right bottom;
-  transform: rotate(-90deg);
-  height: 50px;
-  width: 100vh;
-  background-color: #E4EAF6;
-  margin-left: auto;
-  top: -50px;
+  position: fixed;
+  width: 100%;
 
-  ul {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    transform: rotate(180deg);
-    padding-left: 3rem;
-  }
+  .nav-item {
+    .nav-link {
+      color: black;
+    } 
 
-  li {
-    margin: 0 1rem;
-  }
-
-  .nav-link a, .nav-link a:hover {
-    color: black;
+    .nav-link:hover {
+      color: #ca2929;
+    }
   }
 }
 
-#root {
-  margin: 0;
-  padding: 0;
+@media (min-width: 992px) {
+  #sideNavbar {
+    transform-origin: right bottom;
+    transform: rotate(-90deg);
+    height: 50px;
+    width: 100vh;
+    right: 0;
+    background-color: #E4EAF6;
+    margin-left: auto;
+    top: -50px;
+
+    .navbar-nav {
+      margin: 0 auto;
+      transform: rotate(180deg);
+    }
+
+    li {
+      margin: 0 .8rem;
+    }
+  }
 }
+
+
+
