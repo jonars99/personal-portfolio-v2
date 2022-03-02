@@ -11,9 +11,6 @@ function App() {
     <React.Fragment>
       <Main />
       <Navbar />
-      <Projects />
-      <About />
-      <Contact />
     </React.Fragment>
   );
 }

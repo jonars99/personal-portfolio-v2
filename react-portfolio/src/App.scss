@@ -4,6 +4,7 @@
 %title-text {
   font-size: 1.2rem;
   font-weight: bold;
+  letter-spacing: .3rem;
 }
 
 html, body, #root {
@@ -12,7 +13,7 @@ html, body, #root {
 
 /** landing **/
 
-#landing-page {
+#landingPage {
   background: #E4EAF6;
 
   h3 {
@@ -42,4 +43,35 @@ html, body, #root {
       transform: translateY(50%);
     }
   }
+}
+
+#sideNavbar {
+  transform-origin: right bottom;
+  transform: rotate(-90deg);
+  height: 50px;
+  width: 100vh;
+  background-color: #E4EAF6;
+  margin-left: auto;
+  top: -50px;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    transform: rotate(180deg);
+    padding-left: 3rem;
+  }
+
+  li {
+    margin: 0 1rem;
+  }
+
+  .nav-link a, .nav-link a:hover {
+    color: black;
+  }
+}
+
+#root {
+  margin: 0;
+  padding: 0;
 }

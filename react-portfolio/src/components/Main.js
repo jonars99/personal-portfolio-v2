@@ -2,7 +2,7 @@ import React from 'react';
 
 function Main () {
   return (
-    <div id="landing-page" className="flex-container py-5 d-flex justify-content-center align-items-center">
+    <div id="landingPage" className="flex-container py-5 d-flex justify-content-center align-items-center">
 
       <div className="mx-3 text-end">
         <h3>joanna</h3>
