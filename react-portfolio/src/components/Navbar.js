@@ -9,13 +9,13 @@ function Navbar () {
         <div className="collapse navbar-collapse" id="toggleNavbar">
           <ul className="navbar-nav d-flex align-items-end">
             <li className="nav-item">
-              <a className="nav-link" href="#projects">projects</a>
+              <a className="nav-link" href="#projectsPage">projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">about</a>
+              <a className="nav-link" href="#aboutPage">about</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">contact</a>
+              <a className="nav-link" href="#contactPage">contact</a>
             </li>
             <ul className="d-flex m-0 p-0">
               <li className="nav-item d-flex px-4">
