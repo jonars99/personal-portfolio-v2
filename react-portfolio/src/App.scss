@@ -17,6 +17,7 @@
 
 html, body, #root {
   font-family: 'Anonymous Pro', monospace;
+  scroll-behavior: smooth;
 }
 
 #projectPage, #aboutPage, #contactPage {
@@ -64,6 +65,7 @@ html, body, #root {
 #sideNavbar {
   position: fixed;
   width: 100%;
+  font-size: .85rem;
 
   .nav-item {
     .nav-link {
@@ -111,17 +113,30 @@ html, body, #root {
     height: 50px;
     width: 100vh;
     right: 0;
-    background-color: #E4EAF6;
     margin-left: auto;
     top: -50px;
 
     .navbar-nav {
       margin: 0 auto;
-      transform: rotate(180deg);
+      background-color: #E4EAF6;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      transform: rotate(180deg) translateY(-100%);
+      animation: slide ease 1.3s forwards;
+      animation-delay: 1.3s;
+    }
+
+    .social-links a {
+      transform: rotate(-90deg);
     }
 
     li {
       margin: 0 .8rem;
+    }
+
+    @keyframes slide {
+      0% { transform: rotate(180deg) translateY(-100%) }
+      100% { transform: rotate(180deg) translateY(0%) }
     }
   }
 
