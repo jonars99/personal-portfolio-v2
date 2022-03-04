@@ -132,6 +132,11 @@ html, body, #root {
     color: #515151;
   }
 
+  #logo-svgs {
+    transform-origin: center;
+    animation: circling 20s linear infinite;
+  }
+
 }
 
 /** about page **/

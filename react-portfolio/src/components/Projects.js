@@ -6,7 +6,7 @@ function Projects () {
       <h3 className="text-center pb-4">projects</h3>
       <div className="row gx-0 ms-xl-4">
 
-        <div className="col-12 col-xl-3 d-flex">
+        <div className="col-12 col-xl-3 p-5 p-xl-0 d-flex">
           <svg viewBox="0 0 461 483" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="projects-svgs">
             <g id="svg-laptop-2" clip-path="url(#clip0_47_3)">
