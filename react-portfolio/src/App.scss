@@ -134,11 +134,37 @@ html, body, #root {
 
 }
 
-
 /** about page **/
 
 #aboutPage .about-me, #contactPage .contact-me {
   background-color: #E4EAF6;
+}
+
+.wave-word span {
+  display: inline-block;
+  animation: wave .5s ease-in-out infinite;
+  animation-delay: calc( 0.1s * var(--letter));
+  animation-direction: alternate;
+}
+
+@keyframes wave {
+  0% { trasform: translateY(5px); }
+  100% { transform: translateY(-5px); }
+}
+
+#my-hobbies-svgs {
+  transform-origin: center;
+  animation: circling 20s linear infinite;
+  overflow: visible;
+}
+
+@keyframes circling {
+  0% { transform: rotate(0deg)  }
+  100% { transform: rotate(360deg) }
+}
+
+svg {
+  overflow: visible;
 }
 
 /** footer **/
