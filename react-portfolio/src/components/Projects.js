@@ -3,8 +3,8 @@ import React from 'react';
 function Projects () {
   return (
     <div id="projectPage" className="container my-5 pt-5">
-      <div className="row gx-0">
-        <h3 className="text-center pb-4">projects</h3>
+      <h3 className="text-center pb-4">projects</h3>
+      <div className="row gx-0 ms-xl-4">
 
         <div className="col-12 col-xl-3 d-flex">
           <svg viewBox="0 0 461 483" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -139,15 +139,57 @@ function Projects () {
         </div>
 
         <div className="col-12 col-xl-9">
-          <div className="text-center">
-            <img src="https://via.placeholder.com/350x250" className="img-fluid pe-lg-3"></img>
-            <img src="https://via.placeholder.com/350x250" className="img-fluid mt-3 mt-lg-0"></img>
-          </div>
-          <div className="text-center mt-3">
-            <img src="https://via.placeholder.com/350x250" className="img-fluid pe-lg-3"></img>
-            <img src="https://via.placeholder.com/350x250" className="img-fluid mt-3 mt-lg-0"></img>
+          <div className="text-center"> 
+
+            <div className="project m-2">
+              <img className="project-img" src="https://via.placeholder.com/400x225" />
+              <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
+                <b>client website</b>
+                <p>website designed and built by me in Wix</p>
+                <a href="/">site</a>
+              </div>
+            </div>
+
+            <div className="project m-2">
+              <img className="project-img" src="https://via.placeholder.com/400x225" />
+              <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
+                <b>Twitter Clone</b>
+                <p>full stack twitter clone</p>
+                <div className="project-links d-flex flex-row justify-content-center">
+                  <a href="/" className="mx-2">code</a>
+                  <a href="/" className="mx-2">site</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="project m-2">
+              <img className="project-img" src="https://via.placeholder.com/400x225" />
+              <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
+                <b>accurrency</b>
+                <p>responsive currency converter and exchange rates web app made with react and fetch</p>
+                <div className="project-links d-flex flex-row justify-content-center">
+                  <a href="/" className="mx-2">code</a>
+                  <a href="/" className="mx-2">site</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="project m-2">
+              <img className="project-img" src="https://via.placeholder.com/400x225" />
+              <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
+                <b>To Do List</b>
+                <p>to do list web app using react and fetch with altcademy's API</p>
+                <div className="project-links d-flex flex-row justify-content-center">
+                  <a href="/" className="mx-2">code</a>
+                  <a href="/" className="mx-2">site</a>
+                </div>
+              </div>
+            </div>
+
+          <p className="project-note text-end pe-5">please allow time for heroku deployed sites to wake up</p>
           </div>
         </div>
+
       </div>
     </div>
   )
