@@ -37,7 +37,7 @@ function Navbar () {
                 </a>
               </li>
               <li className="nav-item d-flex pe-0 m-lg-1">
-                <a className="nav-link p-1" href="https://www.linkedin.com/in/joanna-redihough-profile/" target="_blank">
+                <a className="nav-link p-1" href="https://www.linkedin.com/in/joanna-redihough/" target="_blank">
                   <svg width="25px" height="25px" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="linkedin-logo-svg">
                     <g id="Group">
