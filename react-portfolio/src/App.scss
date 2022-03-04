@@ -137,6 +137,10 @@ html, body, #root {
     animation: circling 20s linear infinite;
   }
 
+  .project-svgs {
+    max-width: 250px;
+  }
+
 }
 
 /** about page **/
@@ -170,6 +174,10 @@ html, body, #root {
 
 svg {
   overflow: visible;
+}
+
+.about-svgs {
+  max-width: 250px;
 }
 
 /** footer **/
@@ -223,6 +231,10 @@ svg {
       0% { transform: rotate(180deg) translateY(-100%) }
       100% { transform: rotate(180deg) translateY(0%) }
     }
+  }
+
+  .about-svgs, #projectPage .project-svgs {
+    max-width: 350px;
   }
 
 }

@@ -3,11 +3,11 @@ import React from 'react';
 function Projects () {
   return (
     <div id="projectPage" className="container my-5 pt-5">
-      <h3 className="text-center pb-4">projects</h3>
+      <h3 className="text-center pb-2 pb-xl-4">projects</h3>
       <div className="row gx-0 ms-xl-4">
 
-        <div className="col-12 col-xl-3 p-5 p-xl-0 d-flex">
-          <svg viewBox="0 0 461 483" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="col-12 col-xxl-3 p-3 p-xxl-0 d-flex justify-content-center">
+          <svg className="project-svgs" viewBox="0 0 461 483" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="projects-svgs">
             <g id="svg-laptop-2" clip-path="url(#clip0_47_3)">
             <path id="Vector" d="M181.414 263.232L105.746 252.417L122.292 136.663C122.825 132.931 126.283 130.339 130.014 130.872L311.077 156.753C314.808 157.286 317.4 160.743 316.867 164.474L300.322 280.229L224.654 269.413L181.414 263.232ZM302.388 188.602L305.478 166.983L132.522 142.261L129.432 163.881L118.101 243.152L291.057 267.874L302.388 188.602Z" fill="#464655"/>
@@ -138,11 +138,11 @@ function Projects () {
           </svg>
         </div>
 
-        <div className="col-12 col-xl-9">
+        <div className="col-12 col-xxl-9">
           <div className="text-center"> 
 
             <div className="project m-2">
-              <img className="project-img" src="https://via.placeholder.com/400x225" />
+              <img className="project-img img-fluid" src="https://via.placeholder.com/400x225" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>client website</b>
                 <p>website designed and built by me in Wix</p>
@@ -186,7 +186,7 @@ function Projects () {
               </div>
             </div>
 
-          <p className="project-note text-end pe-5">please allow time for heroku deployed sites to wake up</p>
+          <p className="project-note text-center px-5">please allow time for heroku deployed sites to wake up</p>
           </div>
         </div>
 
