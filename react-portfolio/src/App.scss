@@ -26,6 +26,22 @@ html, body, #root {
   }
 }
 
+/** cursor blob **/
+
+.cursor-trail div {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #ca2929;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  
+}
+
 /** landing **/
 
 #landingPage {
@@ -178,6 +194,18 @@ svg {
 
 .about-svgs {
   max-width: 250px;
+}
+
+/** contact page **/ 
+
+#contactPage {
+
+  input, textarea {
+    border-radius: .5rem;
+    border: 2px solid lightgreen;
+    width: 70%;
+  }
+
 }
 
 /** footer **/
