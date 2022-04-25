@@ -4,16 +4,16 @@ function Navbar () {
   return (
     <nav id="sideNavbar" className="navbar navbar-expand-lg">
       <div className="container-fluid justify-content-end">
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleNavbar" aria-control="toggleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleNavbar" aria-controls="toggleNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <svg width="40px" height="40px" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
             <g id="color"/>
             <g id="hair"/>
             <g id="skin"/>
             <g id="skin-shadow"/>
             <g id="line">
-              <line x1="16" x2="56" y1="26" y2="26" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-              <line x1="16" x2="56" y1="36" y2="36" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-              <line x1="16" x2="56" y1="46" y2="46" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+              <line x1="16" x2="56" y1="26" y2="26" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/>
+              <line x1="16" x2="56" y1="36" y2="36" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/>
+              <line x1="16" x2="56" y1="46" y2="46" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/>
             </g>
           </svg>
         </button>
