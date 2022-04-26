@@ -253,8 +253,42 @@ svg {
 
   input, textarea {
     border-radius: .5rem;
-    border: 2px solid lightgreen;
+    border: 2px solid #F4B459;
     width: 70%;
+  }
+
+  .contact-me {
+    position: relative;
+  }
+
+  .contact-button {
+    background-color: lightgreen;
+    font-size: 1.13rem;
+    width: 7rem;
+    height: 2.5rem;
+    position: absolute;
+    bottom: -28px;
+  }
+
+  .letter-svgs svg {
+    position: absolute;
+  }
+
+  #open-letter, #closed-letter {
+    left: 30px;
+    animation: jumping 1s linear infinite;
+  }
+
+  #closed-letter {
+    left: unset;
+    right: 30px;
+    animation-delay: .5s;
+  }
+
+  @keyframes jumping {
+    0% { transform: translateY(0px) }
+    50% { transform: translateY(10px) } 
+    100% { transform: translateY(0px) }
   }
 
 }
@@ -316,6 +350,27 @@ svg {
     max-width: 350px;
   }
 
+  #contactPage {
+
+    .letter-svgs {
+      position: static;
+    }
+    
+    .letter-svgs svg {
+      position: absolute;
+      top: 35%;
+    }
+
+    #open-letter, #closed-letter {
+      left: -20px;
+    }
+  
+    #closed-letter {
+      left: unset;
+      right: -20px;
+    }
+
+  }
 }
 
 /** none touchscreens **/
