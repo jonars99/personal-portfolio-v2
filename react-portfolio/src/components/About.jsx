@@ -266,7 +266,8 @@ function About() {
             <span style={{ "--letter":7 }}>a</span>
             <span style={{ "--letter":8 }}>c</span>
             <span style={{ "--letter":9 }}>k</span> web developer
-            </span>, currently finishing the Altcademy full stack course.</p>
+            </span>
+              , currently finishing the <a className="altcademy-link" href="https://www.altcademy.com/" target="_blank">Altcademy</a> full stack course.</p>
           <p className="px-3">I have skills and experience in: <br /><b>html css javascript bootstrap sass git react ruby on rails figma</b> and <b>linux</b>.</p>
           <p className="px-3">Aside from coding, I enjoy gaming, drawing, playing ukulele and hiking.</p>
         </div>

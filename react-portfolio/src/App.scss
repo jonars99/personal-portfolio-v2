@@ -237,6 +237,16 @@ svg {
   max-width: 250px;
 }
 
+.altcademy-link {
+  text-decoration: none;
+  color: black;
+}
+
+.altcademy-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 /** contact page **/ 
 
 #contactPage {
