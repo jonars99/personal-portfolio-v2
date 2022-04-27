@@ -5,22 +5,22 @@ function Main() {
   return (
     <div id="landingPage" className="flex-container py-5 d-flex justify-content-center align-items-center">
 
-      <div className="click-for-blob"></div>
+      <div className="click-for-blob bouncing"></div>
 
       <div className="cursor-trail inactive">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
+        <div className="bouncing"></div>
       </div>
 
-      <img className="logo-jr" src={logo}></img><small className="click-me">click me!</small>
+      <img className="logo-jr" src={logo} alt="logo, initials jr"></img><small className="message">click me!</small>
 
       <div className="title-jr my-5 my-sm-0 mx-3 text-end">
         <h3>joanna</h3>
