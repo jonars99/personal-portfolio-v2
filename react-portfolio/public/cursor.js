@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // listen for click //
   clickCursorBlob.addEventListener("click", () => {
-    document.querySelector(".click-me").style.display = "none"
+    document.querySelector(".message").innerHTML = "you can put me back"
 
     // activate cursor animation //
     if (cursorTag.classList.contains("inactive")) {
@@ -62,10 +62,10 @@ document.addEventListener("DOMContentLoaded", () => {
         ball.style.width = "18px"
         ball.style.height = "18px"
         ball.style.position = "absolute"
-        ball.style.animation = "none"
+        ball.classList.remove("bouncing")
       })
       
-      clickCursorBlob.style.animation = "none"
+      clickCursorBlob.classList.remove("bouncing")
 
       moveBalls("activate")
 
@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     else if (cursorTag.classList.contains("active")) {
       document.body.style.cursor = "default"
+      document.querySelector(".message").style.display = "none"
 
       moveBalls("deactivate")
       
@@ -83,10 +84,10 @@ document.addEventListener("DOMContentLoaded", () => {
         ball.style.position = "fixed"
         ball.style.width = "11px"
         ball.style.height = "11px"
-        ball.style.animation = "bounce 1.8s ease infinite"
+        ball.classList.add("bouncing")
       })
 
-      clickCursorBlob.style.animation = "bounce 1.8s ease infinite"
+      clickCursorBlob.classList.add("bouncing")
       
       cursorTag.classList.replace("active", "inactive")
 

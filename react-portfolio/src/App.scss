@@ -43,7 +43,6 @@ html, body, #root {
   height: 15px;
   width: 15px;
   z-index: 60;
-  animation: bounce 1.8s ease infinite;
 }
 
 .click-for-blob:hover {
@@ -63,7 +62,11 @@ html, body, #root {
   pointer-events: none;
   transform: translate(-50%, -50%);
   box-shadow: 0 0 1px #ca2929;
+}
+
+.bouncing {
   animation: bounce 1.8s ease infinite;
+  -webkit-animation: bounce 1.8s ease infinite;
 }
 
 @keyframes bounce {
@@ -72,7 +75,13 @@ html, body, #root {
   65% { transform: translateY(-8px) }
 }
 
-.click-me {
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0) }
+	40% { transform: translateY(-4px) }
+  65% { transform: translateY(-8px) }
+}
+
+.message {
   position: fixed;
   top: 17px;
   left: 45px;
@@ -81,9 +90,17 @@ html, body, #root {
   opacity: 0;
   animation: appear 1.8s ease infinite;
   animation-delay: 15s;
+  -webkit-animation: appear 1.8s ease infinite;
+  -webkit-animation-delay: 15s;
 }
 
 @keyframes appear {
+  0% { opacity: 0 }
+  50% { opacity: 1; transform: translateX(1px) }
+  100% { opacity: 0 }
+}
+
+@-webkit-keyframes appear {
   0% { opacity: 0 }
   50% { opacity: 1; transform: translateX(1px) }
   100% { opacity: 0 }
@@ -442,7 +459,7 @@ svg {
 }
 
 @media (any-hover: hover) and (min-width: 992px) {
-  .cursor-trail div, .logo-jr, .click-for-blob, .click-me {
+  .cursor-trail div, .logo-jr, .click-for-blob, .message {
     display: block;
   }
 }
