@@ -175,7 +175,6 @@ html, body, #root {
 
   .project-img {
     width: 100%;
-    height: 225px;
   }
 
   .project-overlay {
@@ -260,58 +259,62 @@ html, body, #root {
   background-color: #E4EAF6;
 }
 
-.wave-word span {
-  display: inline-block;
-  animation: wave .5s ease-in-out infinite;
-  animation-delay: calc( 0.1s * var(--letter));
-  animation-direction: alternate;
-}
+#aboutPage {
 
-@keyframes wave {
-  0% { trasform: translateY(5px); }
-  100% { transform: translateY(-5px); }
-}
-
-#my-hobbies-svgs {
-  transform-origin: center;
-  animation: circling 20s linear infinite;
-  overflow: visible;
-  padding-left: 100px;
-
-  .about-svg {
-    transform-box: fill-box;
-    transform-origin: 50% 50%;
-    animation: rotating 20s linear infinite;
+  
+  .wave-word span {
+    display: inline-block;
+    animation: wave .5s ease-in-out infinite;
+    animation-delay: calc( 0.1s * var(--letter));
+    animation-direction: alternate;
+  }
+  
+  @keyframes wave {
+    0% { trasform: translateY(5px); }
+    100% { transform: translateY(-5px); }
   }
 
-}
+  #my-hobbies-svgs {
+    transform-origin: center;
+    animation: circling 20s linear infinite;
+    overflow: visible;
+    padding-left: 100px;
+    
+    .about-svg {
+      transform-box: fill-box;
+      transform-origin: 50% 50%;
+      animation: rotating 20s linear infinite;
+    }
+    
+  }
+  
+  @keyframes circling {
+    0% { transform: rotate(0deg)  }
+    100% { transform: rotate(360deg) }
+  }
+  
+  @keyframes rotating {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(-360deg) }
+  }
 
-@keyframes circling {
-  0% { transform: rotate(0deg)  }
-  100% { transform: rotate(360deg) }
-}
+  svg {
+    overflow: visible;
+  }
 
-@keyframes rotating {
-  0% { transform: rotate(0deg) }
-  100% { transform: rotate(-360deg) }
-}
+  .about-svgs {
+    max-width: 250px;
+  }
 
-svg {
-  overflow: visible;
-}
+  .altcademy-link {
+    text-decoration: none;
+    color: black;
+  }
 
-.about-svgs {
-  max-width: 250px;
-}
-
-.altcademy-link {
-  text-decoration: none;
-  color: black;
-}
-
-.altcademy-link:hover {
-  text-decoration: underline;
-  color: black;
+  .altcademy-link:hover {
+    text-decoration: underline;
+    color: black;
+  }
 }
 
 /** contact page **/ 
@@ -380,6 +383,29 @@ svg {
 }
 
 /** responsiveness **/
+
+@media (max-width: 350px) {
+  #landingPage {
+    flex-direction: column;
+    .title-jr h3 {
+      text-align: start;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  #landingPage h3 {
+    font-size: small;
+    letter-spacing: .2rem;
+  }
+
+  #projectPage {
+    .project {
+      width: 100%;
+    }
+  }
+}
 
 @media (min-width: 992px) {
 

@@ -146,7 +146,7 @@ function Projects() {
         <div className="col-12 col-xxl-9">
           <div className="text-center">
 
-            <div className="project my-3 m-2">
+            <div className="project my-3 m-0 m-sm-2">
               <img className="project-img img-fluid" src={projectImage1} alt="screenshot of client website" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>client website</b>
@@ -155,7 +155,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="project my-3 m-2">
+            <div className="project my-3 m-0 m-sm-2">
               <img className="project-img" src={projectImage2} alt="screenshot of twitter clone" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>Twitter Clone</b>
@@ -167,7 +167,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="project my-3 m-2">
+            <div className="project my-3 m-0 m-sm-2">
               <img className="project-img" src={projectImage3} alt="screenshot of accurrency web app" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>accurrency</b>
@@ -179,7 +179,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="project my-3 m-2">
+            <div className="project my-3 m-0 m-sm-2">
               <img className="project-img" src={projectImage4} alt="screenshot of to do list web app" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>To Do List</b>
