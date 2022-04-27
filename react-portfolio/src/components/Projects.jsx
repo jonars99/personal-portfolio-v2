@@ -147,51 +147,51 @@ function Projects() {
           <div className="text-center">
 
             <div className="project my-3 m-2">
-              <img className="project-img img-fluid" src={projectImage1} />
+              <img className="project-img img-fluid" src={projectImage1} alt="screenshot of client website" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>client website</b>
                 <p>website designed and built by me in Wix</p>
-                <a className="align-self-center" href="https://www.seijichampollion.com/" target="_blank">site</a>
+                <a className="align-self-center" href="https://www.seijichampollion.com/" target="_blank" rel="noreferrer noopener">site</a>
               </div>
             </div>
 
             <div className="project my-3 m-2">
-              <img className="project-img" src={projectImage2} />
+              <img className="project-img" src={projectImage2} alt="screenshot of twitter clone" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>Twitter Clone</b>
                 <p>full stack twitter clone - a responsive react rails project</p>
                 <div className="project-links d-flex flex-row justify-content-center">
-                  <a href="https://github.com/jonars99/full-stack-twitter-clone" target="_blank" className="mx-2">code</a>
-                  <a href="https://fs-twitter-jr.herokuapp.com" target="_blank" className="mx-2">site</a>
+                  <a href="https://github.com/jonars99/full-stack-twitter-clone" target="_blank" rel="noreferrer noopener" className="mx-2">code</a>
+                  <a href="https://fs-twitter-jr.herokuapp.com" target="_blank" rel="noreferrer noopener" className="mx-2">site</a>
                 </div>
               </div>
             </div>
 
             <div className="project my-3 m-2">
-              <img className="project-img" src={projectImage3} />
+              <img className="project-img" src={projectImage3} alt="screenshot of accurrency web app" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>accurrency</b>
                 <p>responsive currency converter and exchange rates web app made with react and fetch</p>
                 <div className="project-links d-flex flex-row justify-content-center">
-                  <a href="https://github.com/jonars99/accurrency" target="_blank" className="mx-2">code</a>
-                  <a href="https://still-fjord-97974.herokuapp.com/currency-converter" target="_blank" className="mx-2">site</a>
+                  <a href="https://github.com/jonars99/accurrency" target="_blank" rel="noreferrer noopener" className="mx-2">code</a>
+                  <a href="https://still-fjord-97974.herokuapp.com/currency-converter" target="_blank" rel="noreferrer noopener" className="mx-2">site</a>
                 </div>
               </div>
             </div>
 
             <div className="project my-3 m-2">
-              <img className="project-img" src={projectImage4} />
+              <img className="project-img" src={projectImage4} alt="screenshot of to do list web app" />
               <div className="project-overlay project-blur d-flex flex-column justify-content-center p-3">
                 <b>To Do List</b>
                 <p>to do list web app using react and fetch with altcademy's API</p>
                 <div className="project-links d-flex flex-row justify-content-center">
-                  <a href="https://github.com/jonars99/fswd-todolist" target="_blank" className="mx-2">code</a>
-                  <a href="https://fs-todolist.herokuapp.com/" target="_blank" className="mx-2">site</a>
+                  <a href="https://github.com/jonars99/fswd-todolist" target="_blank" rel="noreferrer noopener" className="mx-2">code</a>
+                  <a href="https://fs-todolist.herokuapp.com/" target="_blank" rel="noreferrer noopener" className="mx-2">site</a>
                 </div>
               </div>
             </div>
 
-            <p className="project-note text-center my-1">check out more projects on my <a className="github-note fw-bold" href="https://github.com/jonars99" target="_blank">GitHub</a></p>
+            <p className="project-note text-center my-1">check out more projects on my <a className="github-note fw-bold" href="https://github.com/jonars99" target="_blank" rel="noreferrer noopener">GitHub</a></p>
 
           </div>
         </div>
