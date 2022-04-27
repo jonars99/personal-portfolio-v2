@@ -16,16 +16,6 @@ function App() {
       <About />
       <Contact />
       <Footer />
-      <div className="cursor-trail">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
     </React.Fragment>
   );
 }
