@@ -389,17 +389,13 @@ html, body, #root {
     flex-direction: column;
     .title-jr h3 {
       text-align: start;
+      font-size: small;
+      letter-spacing: .2rem;
     }
   }
 }
 
 @media (max-width: 576px) {
-
-  #landingPage h3 {
-    font-size: small;
-    letter-spacing: .2rem;
-  }
-
   #projectPage {
     .project {
       width: 100%;
