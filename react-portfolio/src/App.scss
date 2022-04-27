@@ -38,11 +38,12 @@ html, body, #root {
 
 .click-for-blob {
   position: fixed;
-  top: 23px;
+  top: 21px;
   left: 23px;
   height: 15px;
   width: 15px;
   z-index: 60;
+  animation: bounce 1.8s ease infinite;
 }
 
 .click-for-blob:hover {
@@ -55,18 +56,37 @@ html, body, #root {
   z-index: 50;
   width: 11px;
   height: 11px;
-  top: 30px;
-  left: 30px;
+  top: 23px;
+  left: 25px;
   background-color: #ca2929;
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 1px #ca2929; 
+  box-shadow: 0 0 1px #ca2929;
+  animation: bounce 1.8s ease infinite;
 }
 
-.cursor-trail div:hover {
-  cursor: pointer;
-  background-color: pink;
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0) }
+	40% { transform: translateY(-4px) }
+  65% { transform: translateY(-8px) }
+}
+
+.click-me {
+  position: fixed;
+  top: 17px;
+  left: 45px;
+  font-size: .5rem;
+  display: none;
+  opacity: 0;
+  animation: appear 1.8s ease infinite;
+  animation-delay: 15s;
+}
+
+@keyframes appear {
+  0% { opacity: 0 }
+  50% { opacity: 1; transform: translateX(1px) }
+  100% { opacity: 0 }
 }
 
 /** landing **/
@@ -422,7 +442,7 @@ svg {
 }
 
 @media (any-hover: hover) and (min-width: 992px) {
-  .cursor-trail div, .logo-jr {
+  .cursor-trail div, .logo-jr, .click-for-blob, .click-me {
     display: block;
   }
 }

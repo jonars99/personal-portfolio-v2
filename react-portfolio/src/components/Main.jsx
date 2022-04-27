@@ -20,7 +20,7 @@ function Main() {
         <div></div>
       </div>
 
-      <img className="logo-jr" src={logo}></img>
+      <img className="logo-jr" src={logo}></img><small className="click-me">click me!</small>
 
       <div className="title-jr my-5 my-sm-0 mx-3 text-end">
         <h3>joanna</h3>
