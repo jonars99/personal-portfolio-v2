@@ -7,7 +7,7 @@ function About() {
         <h3 className="text-center pb-4">about me</h3>
 
         <div className="col-12 col-xl-5 p-1 pb-4 p-xl-5 d-flex justify-content-center">
-          <svg className="about-svgs" viewBox="0 0 518 483" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className="about-svgs" width="315" height="330" viewBox="0 0 518 483" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g>
               <g id="svg-me" clipPath="url(#clip0_47_2)">
                 <g id="Group">
