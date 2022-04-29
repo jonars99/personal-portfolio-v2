@@ -10,7 +10,7 @@ Updating my personal portfolio website using **React** and **Sass**, deployed to
 
 ## About
 
-![screenshot of portfolio website](my-site.png "screenshot of my portfolio site")
+![screenshot of portfolio website](../my-site.png "screenshot of my portfolio site")
 
 * Fun, personal design
 * Animated svgs and text
