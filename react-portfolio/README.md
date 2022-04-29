@@ -6,7 +6,7 @@
 
 Check it out -> [joannaredihough.com](https://www.joannaredihough.com/)  
 
-Updating my personal portfolio website using **React** and Sass, deployed to **Netlify**
+Updating my personal portfolio website using **React** and **Sass**, deployed to **Netlify**
 
 ## About
 
@@ -23,4 +23,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Notes
 
 * All svgs from [svgrepo.com](https://www.svgrepo.com/)
-* Website designed and built by me - © 2022 Joanna Redihough
+* Website designed and built by me © 2022 Joanna Redihough
