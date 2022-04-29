@@ -6,7 +6,7 @@
 
 Check it out -> [joannaredihough.com](https://www.joannaredihough.com/)  
 
-Updating my personal portfolio website using **React** and Sass, deployed to **Netlify**
+Updating my personal portfolio website using **React** and **Sass**, deployed to **Netlify**
 
 ## About
 
