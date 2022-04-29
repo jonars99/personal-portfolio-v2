@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio Website
 
 **Version 2.0.0**
 
@@ -23,4 +23,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Notes
 
 * All svgs from [svgrepo.com](https://www.svgrepo.com/)
+* Wireframe made in [Figma](https://www.figma.com/)
 * Website designed and built by me © 2022 Joanna Redihough
